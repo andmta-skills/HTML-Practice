@@ -1,0 +1,245 @@
+<!-- boiler plate -->
+<!-- DOCTYPE is not an HTML tag. It is just an instruction for your browser to tell what version 
+of HTML your document is using -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- default meta tags added from boilerplate -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <title>New Title</title> -->
+
+    <!-- meta tags and other links added by develpers selection -->
+    <!-- Define keywords for search engines: -->
+
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <!-- Define a description of your web page: -->
+
+    <meta name="description" content="HTML practice code" />
+    <!-- Define the author of a page: -->
+
+    <meta name="author" content="andmta skills" />
+    <!-- Refresh document every 30 seconds: -->
+
+    <meta http-equiv="refresh" content="30" />
+
+    <!-- link tags -->
+
+    <!-- To add CSS file to the document -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- tab or website icon displayed on the tab list before document title-->
+    <!-- use your own images or generate from https://favicon.io/  -->
+    <link rel="icon" href="./icon/favicon-32x32.png" />
+    <!-- provide a media type or query inside a media attribute; this resource will then only be loaded if the media condition is true -->
+    <link href="./print.css" rel="stylesheet" media="print" />
+    <!-- the <style> element to apply a simple style sheet to an HTML document.  -->
+    <style>
+      h1 {
+        color: green;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+
+    <base target="_blank" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- html tags Syntax -->
+    <div>
+      <!-- . HTML tags contain three main parts: opening tag, content and closing tag. -->
+      <h1>This is Title</h1>
+
+      <!-- But some HTML tags are unclosed tags. -->
+      <h1>
+        This is <br />
+        Title
+      </h1>
+    </div>
+
+    <!-- 2.HTML Text Tags -->
+    <!-- Heading -->
+    <h1>Heading examples</h1>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Paragraph -->
+    <h1>Paragraph example</h1>
+    <p>
+      This is the first paragraph of text. This is the first paragraph of text.
+      This is the first paragraph of text. This is the first paragraph of
+      text.This is the first paragraph of text. This is the first paragraph of
+      text. This is the first paragraph of text. This is the first paragraph of
+      text.This is the first paragraph of text. This is the first paragraph of
+      text. This is the first paragraph of text. This is the first paragraph of
+      text.This is the first paragraph of text. This is the first paragraph of
+      text. This is the first paragraph of text. This is the first paragraph of
+      text.
+    </p>
+
+    <!-- strong -->
+    <h1>Strong example</h1>
+    <p>
+      The strong HTML element indicates that its contents have strong
+      importance, seriousness, or urgency.
+      <strong>Browsers typically render the contents in bold type</strong>
+    </p>
+
+    <!-- 3.HTML Link Tags -->
+    <!-- Anchor:-  -->
+    <h1>Anchor example</h1>
+    <p>
+      Click <a href="https://www.w3schools.com/">W3 schools </a> to ckeck anchor
+      tag
+    </p>
+
+    <!-- Base  -->
+    <h1>Base example</h1>
+    <p>
+      If you include base tag with attribute target: _blank when you click
+      <a href="https://www.w3schools.com/">W3 schools </a> it wil be open in a
+      new tab
+    </p>
+
+    <!-- 4.HTML Image and Object Tags -->
+    <!-- image  -->
+    <h1>image example</h1>
+    <img
+      src="./images/Andmta_logo.jpg"
+      height="100"
+      width="100"
+      alt="andmta logo image"
+    />
+
+    <!-- 5.HTML List Tags  -->
+    <!-- Ordered List or Numbered List (ol)  -->
+    <h1>Ordered List example</h1>
+
+    <ol>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+      <li>four</li>
+    </ol>
+
+    <!-- Unordered List or Bulleted List (ul)  -->
+    <h1>Unordered List example</h1>
+
+    <ul>
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+      <li>four</li>
+    </ul>
+
+    <!-- Description List or Definition List)  -->
+    <h1>Description List example</h1>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>VSC</dt>
+      <dd>Visual Studio Code</dd>
+    </dl>
+
+    <!-- 6.	HTML Table Tags -->
+    <h1> Table example</h1>
+
+
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+            <col style="background-color:red">
+          </colgroup>
+      <tr>
+        <th>VERSION NUMBER</th>
+        <th>DATE ANNOUNCED</th>
+        <th>FINAL VERSION</th>
+      </tr>
+      <tr>
+        <td>iPhone OS 1</td>
+        <td>June 2007</td>
+        <td>1.1.5</td>
+      </tr>
+      <tr>
+        <td>iPhone OS 2</td>
+        <td>March 2008</td>
+        <td>2.2.1</td>
+      </tr>
+      <tr>
+        <td>iPhone OS 3</td>
+        <td>March 2009</td>
+        <td>3.2.2</td>
+      </tr>
+    </table>
+
+
+    <!-- 6.	HTML Form Tags -->
+    <h1> Form example</h1>
+
+    <form  onsubmit="actions()">  
+        First Name: <br/><input type="text" name="firstname" placeholder="firstname(placeholder)" required autofocus/> <br/>  <br/>
+        Last Name: <br/> <input type="text" name="lastname" value="lastname(value)"/> <br/><br/>
+        E- mail with value attribute: <br/><input type="email" id="email" name="email" value="@gmail.com"/> <br/>  <br/>
+        E- mail with out value only name and type : <br/><input name="email" type="email"/> <br/>  <br/>
+        Password : <br/><input type="password" id="password" name="password" placeholder="password"/> <br/> <br/> 
+        <label for="gender">Gender: </label>  
+              <input type="radio" id="gender" name="gender" value="male" 	/>Male  
+              <input type="radio" id="gender" name="gender" value="female" />Female <br/><br/>
+        Hobby:<br>  
+        <input type="checkbox" id="cricket" name="cricket" value="cricket"/>  
+            <label for="cricket">Cricket</label> <br>  
+        <input type="checkbox" id="football" name="football" value="football"/>  
+            <label for="football">Football</label> <br>  
+        <input type="checkbox" id="hockey" name="hockey" value="hockey"/>  
+            <label for="hockey">Hockey</label><br><br/>
+            <fieldset>  
+                <legend>Last college diploma/degree </legend>  
+            <label for="name">Name of University/college</label><br>  
+            <input type="text" name="school"><br>  
+            <label for="level">Level of education</label><br>  
+            <select name="level" id="level" style="width:160px"  >  
+                <option Value="" selected disabled>select your level </option>  
+                <option value="Diploma">Diploma</option>  
+                <option value="Degree">Degree</option>    
+            </select> <br>
+           
+            <label for="grade"> Score </label><br>  
+            <input type="number" id="grade" name="grade" ><br>  
+          </fieldset> <br/><br/>
+        
+        <label for="Description" >Description:
+        <textarea id="Description" rows="4" cols="40" maxlength ="50" placeholder="describe your self in less than 50 characters"></textarea> 
+        </label> <br/><br/>
+         
+        <input type="submit" value="submit" >
+        
+        
+    </form>
+    <!-- <script> actions=()=>{
+        alert ("submitted")
+    }
+    </script>   -->
+      
+
+
+
+
+
+
+  </body>
+</html>
