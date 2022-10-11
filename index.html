@@ -49,7 +49,7 @@ of HTML your document is using -->
       }
     </style>
 
-    <base target="_blank" />
+    <!-- <base  target="_blank" /> -->
     <script src="./script.js"></script>
   </head>
   <body>
@@ -67,7 +67,7 @@ of HTML your document is using -->
 
     <!-- 2.HTML Text Tags -->
     <!-- Heading -->
-    <h1>Heading examples</h1>
+    <h1  id="top">Heading examples</h1>
 
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
@@ -177,14 +177,14 @@ of HTML your document is using -->
         <td>1.1.5</td>
       </tr>
       <tr>
-        <td>iPhone OS 2</td>
+        <td rowspan="2">iPhone OS 2</td>
         <td>March 2008</td>
-        <td>2.2.1</td>
+        <td >2.2.1</td>
       </tr>
       <tr>
-        <td>iPhone OS 3</td>
-        <td>March 2009</td>
-        <td>3.2.2</td>
+        <!-- <td>iPhone OS 3</td> -->
+        <td colspan="2">March 2009</td>
+        <!-- <td>3.2.2</td> -->
       </tr>
     </table>
 
@@ -230,7 +230,8 @@ of HTML your document is using -->
         <input type="submit" value="submit" >
         
         
-    </form>
+    </form><br>
+    <p>click   <a href="#top">Back to top</a>    this effect is done with anchor tag by setting the href attribute to the id of prefered position tag</p>
     <!-- <script> actions=()=>{
         alert ("submitted")
     }
