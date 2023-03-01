@@ -1,0 +1,12 @@
+good folder structure
+    images, icons, plugins, files
+start using index.html
+change title and favicon
+add css and JavaScript
+write your html
+    write comments to describe the code
+    think interms of container
+    use appropriate tag
+    give descriptive class names(use BEM methedology or other good trend)
+        https://en.bem.info/methodology/naming-convention/#:~:text=Words%20within%20the%20names%20of,a%20double%20underscore%20(%20__%20).
+    format your document(using pretier or other extension) and indent on parent child relation
